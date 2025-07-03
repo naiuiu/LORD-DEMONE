@@ -22,7 +22,45 @@
 </select>
 <button id="resetModalitaBtn" style="margin-left: 10px;">Reset modalità</button>
 
-<h2>Aggiungi schegga</h2>
-<select id="scheggaTipo">
-  <option value="Antica">Antica</option>
-  <option va
+<section class="input-group">
+  <h2>Aggiungi schegga</h2>
+  <select id="scheggaTipo">
+    <option value="Antica">Antica</option>
+    <option value="Vuoto">Vuoto</option>
+    <option value="Sacra">Sacra</option>
+  </select>
+  <button id="aggiungiScheggaBtn">Aggiungi schegga</button>
+</section>
+
+<section class="input-group">
+  <h2>Aggiungi tomo</h2>
+  <select id="tomoTipo">
+    <option value="Raro">Raro</option>
+    <option value="Epico">Epico</option>
+    <option value="Leggendario">Leggendario</option>
+    <option value="Mitico">Mitico</option>
+  </select>
+  <button id="aggiungiTomoBtn">Aggiungi tomo</button>
+</section>
+
+<h2>Conteggi</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Modalità</th>
+      <th>Antica</th>
+      <th>Vuoto</th>
+      <th>Sacra</th>
+      <th>Raro</th>
+      <th>Epico</th>
+      <th>Leggendario</th>
+      <th>Mitico</th>
+    </tr>
+  </thead>
+  <tbody id="tabellaConteggi"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
+
