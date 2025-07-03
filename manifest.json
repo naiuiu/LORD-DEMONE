@@ -3,7 +3,7 @@
   "short_name": "LordDemone",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#222",
-  "theme_color": "#4b4b4b",
+  "background_color": "#121212",
+  "theme_color": "#333333",
   "description": "App per tracciare schegge e tomi nel gioco Lord Demone"
 }
